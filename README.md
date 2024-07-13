@@ -1,11 +1,11 @@
-#ROS2 package for Logitech F710 wireless joystick
+# ROS2 package for Logitech F710 wireless joystick
 
 Ensure the evdev library is installed:
   pip3 install evdev
 
 ros2 run logitech_f10_ros joystick_node
 
-will publish /joy node with joystick axes and buttons.
+will publish to /joy topic the joystick axes and buttons values.
 topic type: sensor_msgs/msg/Joy
 
 ---
